@@ -72,5 +72,12 @@ public class CustomList extends ArrayAdapter<City> {
             throw new IllegalArgumentException();
         }
     }
+    /**
+     * This method will return the size of a CityList
+     * @return integer value of the size of the array, number of cities in CityList
+     */
+    public int countCities() {
+        return cities.size();
+    }
 
 }
